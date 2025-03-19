@@ -1,0 +1,55 @@
+# Environnements virtuels
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# Modèles téléchargés
+models/
+*.pth
+*.onnx
+
+# Images générées
+enhanced/
+output/
+
+# Fichiers Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Logs et caches
+*.log
+.cache/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# IDEs et éditeurs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db 
