@@ -1,0 +1,13 @@
+{
+  "include": [
+    "*.py"
+  ],
+  "exclude": [
+    "**/node_modules",
+    "**/__pycache__"
+  ],
+  "reportMissingImports": false,
+  "reportGeneralTypeIssues": "warning",
+  "pythonVersion": "3.9",
+  "typeCheckingMode": "basic"
+} 

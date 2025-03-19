@@ -45,6 +45,24 @@ python enhance_logo_advanced.py
 
 Cette méthode télécharge automatiquement le modèle Real-ESRGAN si nécessaire et produit généralement les meilleurs résultats, mais nécessite plus de dépendances et une machine plus puissante.
 
+### 4. Version avancée simplifiée
+
+Si vous rencontrez des problèmes avec l'installation de Real-ESRGAN, utilisez cette version simplifiée:
+
+```bash
+python enhance_logo_advanced_simplified.py
+```
+
+Cette version utilise OpenCV et des filtres avancés pour améliorer la qualité sans nécessiter Real-ESRGAN.
+
+### 5. Suppression d'arrière-plan
+
+Pour supprimer l'arrière-plan de votre logo:
+
+```bash
+python remove_background.py
+```
+
 ## Résultats
 
 Les images améliorées sont enregistrées dans le dossier `enhanced/` créé automatiquement. Chaque script génère des fichiers avec des noms différents pour distinguer les méthodes utilisées.
@@ -60,4 +78,30 @@ Pour utiliser ces scripts avec vos propres images:
 
 - **Pillow (simple)**: Rapide, facile à installer, bons résultats pour les logos vectoriels.
 - **OpenCV**: Meilleurs résultats pour les images photographiques, plus de ressources nécessaires.
-- **Real-ESRGAN**: Résultats de qualité professionnelle, excellents pour les images photographiques, mais plus lent et nécessite plus de ressources. 
+- **Real-ESRGAN**: Résultats de qualité professionnelle, excellents pour les images photographiques, mais plus lent et nécessite plus de ressources.
+
+## Licence
+
+Ce projet est sous licence MIT.
+
+MIT License
+
+Copyright (c) 2025 Niaina
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE. 

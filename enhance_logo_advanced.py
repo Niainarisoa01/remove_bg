@@ -1,3 +1,4 @@
+# pyright: reportMissingImports=false
 import os
 import sys
 import numpy as np
@@ -47,6 +48,7 @@ def enhance_with_realesrgan(input_path, output_path, model_path=None):
     Enhance image using Real-ESRGAN
     """
     try:
+        # Importation des modules Real-ESRGAN
         from basicsr.archs.rrdbnet_arch import RRDBNet
         from realesrgan import RealESRGANer
         from realesrgan.archs.srvgg_arch import SRVGGNetCompact
